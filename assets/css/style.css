@@ -102,8 +102,16 @@ header{
   margin: 25px 0px 10px 0px;
   font-size: 2rem;
 }
-.colm-ul{
-  display: inline-block;
+.colum{
+  border: 1px solid gray;
+  width: 33.3%;
+
+}
+.colum-ul{
+  padding: 10PX;
+}
+.colum .icon-alone{
+  border-bottom: 1px solid gray;
 }
 .table{
   display: flex;
