@@ -19,6 +19,9 @@ body{
 .margin-top-big{
   padding-top: 150px;
 }
+.margin-top-small{
+  margin-top: 50px;
+}
 .container-big{
   max-width: 800px;
   width: 90%;
@@ -52,6 +55,7 @@ header{
   top: 0;
   width: 100%;
   position: fixed;
+  z-index: 999;
 }
 .head-er{
     width: 100%;
@@ -71,7 +75,18 @@ header{
   padding: 4px 7px;
 }
 .hero{
+  padding-bottom: 55px;
   background-color: var(--clr-hero);
+}
+.hero-text{
+  width: 50%;
+}
+.hero-img{
+  position: relative;
+  width: 100%;
+}
+.hero-img img{
+  position: absolute;
 }
 
 
