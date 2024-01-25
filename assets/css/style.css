@@ -15,6 +15,17 @@ img{
   --clr-hero: #b4d0e7;
   --clr-footer: #000000;
   --clr-white: #ffffff;
+  --clr-gray: #707070;
+  --clr-violet: #8256a9;
+}
+.text-gray{
+  color: var(--clr-gray);
+}
+.text-violet{
+  color: var(--clr-violet);
+}
+.blu-text{
+  color: var(--fake-btn);
 }
 body{
   font-family: 'Open Sans', sans-serif;
@@ -41,14 +52,22 @@ body{
 .font-big{
   font-size: 3.5rem;
 }
-
-
+.fake-btn{
+  color: var(--clr-white);
+  background-color: var(--fake-btn);
+  padding: 4px 7px;
+}
+.hr-separation{
+  width: 55px;
+  border: 1px solid gray;
+  margin: 50px 0px;
+}
 /*HEADER*/
 
 ul{
   list-style: none;
 }
-a{
+header a{
   text-decoration: none;
 }
 .top-ul li{
@@ -74,11 +93,9 @@ header{
 .top-ul ul li a{
   color: var(--clr-footer);
 }
-.fake-btn{
-  color: var(--clr-white);
-  background-color: var(--fake-btn);
-  padding: 4px 7px;
-}
+
+/*HERO*/
+
 .hero-color{
   max-height:570px ;
   background-color: var(--clr-hero);
@@ -102,6 +119,8 @@ header{
   margin: 25px 0px 10px 0px;
   font-size: 2rem;
 }
+
+/*SECTION BUSINESS*/
 .colum{
   border: 1px solid gray;
   width: 33.3%;
@@ -115,8 +134,20 @@ header{
 }
 .table{
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
+
 .icon-alone{
   text-align: center;
 }
+
+.colum-ul i{
+  margin-right: 5px;
+}
+
+.colum-ul li{
+  margin: 20px 0px 0px 0px;
+}
+
+
+
