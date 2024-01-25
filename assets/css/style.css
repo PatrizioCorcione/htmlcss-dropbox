@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /*UTILITY*/
+.widht-btn{
+  width: 66%;
+}
 img{
   width: 100%;
 }
@@ -28,7 +31,7 @@ body{
   margin: 0 auto;
 }
 .container-small{
-  max-width: 600px;
+  max-width: 700px;
   width: 90%;
   margin: 0 auto;
 }
@@ -38,6 +41,7 @@ body{
 .font-big{
   font-size: 3.5rem;
 }
+
 
 /*HEADER*/
 
@@ -63,10 +67,11 @@ header{
   height: 50px;
 }
 .top-ul{
+  padding: 4px;
   justify-content: space-between;
   align-items: center;
 }
-.top-ul a{
+.top-ul ul li a{
   color: var(--clr-footer);
 }
 .fake-btn{
@@ -75,6 +80,7 @@ header{
   padding: 4px 7px;
 }
 .hero-color{
+  max-height:570px ;
   background-color: var(--clr-hero);
 }
 .hero-text{
@@ -96,4 +102,13 @@ header{
   margin: 25px 0px 10px 0px;
   font-size: 2rem;
 }
-
+.colm-ul{
+  display: inline-block;
+}
+.table{
+  display: flex;
+justify-content: space-between;
+}
+.icon-alone{
+  text-align: center;
+}
