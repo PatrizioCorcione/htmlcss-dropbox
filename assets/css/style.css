@@ -91,7 +91,7 @@ header{
   z-index: 999;
 }
 .head-er{
-    width: 100%;
+  width: 100%;
   background-color: var(--clr-white);
   height: 50px;
 }
@@ -107,7 +107,7 @@ header{
 /*HERO*/
 
 .hero-color{
-  max-height:570px ;
+  min-height:580px ;
   background-color: var(--clr-hero);
 }
 .hero-text{
@@ -186,6 +186,13 @@ a.fake-btn-par{
 }
 .contatto-txt p{
   margin: 20px 0px;
+}
+.card{
+  width: 33%;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
