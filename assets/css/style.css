@@ -14,7 +14,7 @@ body{
   width: 66%;
 }
 img{
-  width: 100%;
+  max-width: 100%;
 }
 :root{
   --fake-btn: #0061ff;
@@ -41,12 +41,10 @@ img{
 }
 .container-big{
   max-width: 800px;
-  width: 90%;
   margin: 0 auto;
 }
 .container-small{
   max-width: 700px;
-  width: 90%;
   margin: 0 auto;
 }
 .flexing{
@@ -74,6 +72,7 @@ img{
 }
 /*HEADER*/
 
+
 ul{
   list-style: none;
 }
@@ -84,6 +83,9 @@ header a{
   margin-right: 10px;
   padding: 5px;
 }
+.top-ul li img{
+  min-width: 130px;
+}
 header{
   top: 0;
   width: 100%;
@@ -93,7 +95,6 @@ header{
 .head-er{
   width: 100%;
   background-color: var(--clr-white);
-  height: 50px;
 }
 .top-ul{
   padding: 4px;
@@ -188,11 +189,18 @@ a.fake-btn-par{
   margin: 20px 0px;
 }
 .card{
-  width: 33%;
+  padding-right: 10px;
+  width: calc(100% / 3);
 }
 .cards{
   display: flex;
   flex-wrap: wrap;
+}
+p{
+  font-size: 0.7rem;
+}
+.card p{
+  margin-top: 20px;
 }
 
 
