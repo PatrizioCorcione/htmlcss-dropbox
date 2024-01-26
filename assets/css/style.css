@@ -202,5 +202,19 @@ p{
 .card p{
   margin-top: 20px;
 }
+.margin-h2-team{
+  margin: 100px 0px 42px 0px;
+}
 
-
+.team{
+  display: flex;
+}
+.ratio{
+  aspect-ratio: 1/1;
+}
+.team-logo{
+  width: 40%;
+}
+.txt-team{
+  width: 20%;
+}
