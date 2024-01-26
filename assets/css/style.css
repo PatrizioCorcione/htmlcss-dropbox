@@ -77,6 +77,9 @@ img{
 .font-big{
   font-size: 3.5rem;
 }
+.font-small{
+  font-size: 0.8rem;
+}
 .fake-btn{
   color: var(--clr-white);
   background-color: var(--fake-btn);
@@ -297,4 +300,22 @@ div.team-logo:nth-child(3) {
 }
 .bk-invitation{
   background-color: var(--clr-hero);
+}
+.fake-btn-inv a{
+  color: #000000;
+  text-decoration: none;
+}
+.ask{
+  padding-bottom: 30px;
+}
+.ask div i{
+  font-size: 0.6rem;
+  padding-left: 25%;
+}
+.differences{
+  padding: 20px 0px;  border-top: 1px solid gray;
+  padding: 20px 0px;
+}
+.ask h2{
+  margin: 80px 0px 35px 0px;
 }
