@@ -250,20 +250,19 @@ a.fake-btn-par{
   display: flex;
 }
 .ratio{
-  padding: 60px;
-  width: 215px;
+  width: 50%;
   aspect-ratio: 1/1;
 }
 .team-logo{
   display: flex;
   flex-wrap: wrap;
-  width: 44%;
+  width: calc(100% / 3);aspect-ratio: 1;
 }
 .txt-team{
   background-color: #f5f5f5;
   padding: 0px 30px;
   overflow: auto;
-  width: 42%;
+  width: calc(100% / 3);
 }
 .border-green{
   border: solid 0.5rem #d0e9cd;
@@ -278,6 +277,7 @@ div.team-logo:nth-child(3) {
   display: flex;
 }
 .team-logo img{
+  width: 50%;
   filter: invert(100%);
 }
 .txt-team p{
