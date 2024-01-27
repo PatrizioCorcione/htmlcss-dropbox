@@ -17,7 +17,7 @@
 
       <div class="top-ul flexing">
         <ul class="top-ul flexing">
-          <li><img src="assets/img/logo-small.png" alt="favicon"></li>
+          <img src="assets/img/logo-small.png" alt="favicon">
           <li><a href="#">Perche Dropbox</a></li>
           <li><a href="#">Funzioni</a></li>
           <li><a href="#">Piani e Prezzi</a></li>
@@ -67,10 +67,14 @@
     <section class="business container-small margin-top-big">
       <h2>Trova il piano business che fa per te</h2>
       <div class="check">
-        <input type="radio">
-        <span>Fatturazione mensile</span>
-        <input type="radio">
-        <span>Fatturazione annuale</span>
+        <span>
+          <input id="imp-men" type="radio" name="bon">
+        <label for="imp-men">Fatturazione mensile</label>
+        </span>
+        <span>
+          <input id="imp-ann" type="radio" name="bon">
+        <label for="imp-ann">Fatturazione annuale</label>
+        </span>
       </div>
     </section>
     <section class="busi-table container-small">
@@ -430,7 +434,6 @@
     </section>
     <!--ASK-->
   </main>
-
   <footer>
     <div class="ul-footer container-big">
       <div>
