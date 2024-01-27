@@ -61,7 +61,7 @@ img{
   color: var(--fake-btn);
 }
 .margin-top-big{
-  padding-top: 80px;
+  margin-top: 140px;
 }
 .margin-top-small{
   margin-top: 60px;
@@ -108,6 +108,9 @@ p{
 }
 
 /*HEADER*/
+.padding-header{
+  padding-top: 140px;
+}
 
 ul{
   list-style: none;
@@ -150,6 +153,10 @@ div.top-ul{
   padding: 0px 15px;
   height: 100%;
 }
+.top-ul li:hover{
+  border-bottom: 3px solid var(--fake-btn);
+}
+
 
 /*HERO*/
 
@@ -181,7 +188,9 @@ div.top-ul{
 }
 
 /*SECTION BUSINESS*/
-
+.business{
+  padding-top: 70px;
+}
 .check{
   margin: 30px 0;
 }
@@ -264,6 +273,9 @@ input:checked{
 }
 
 /*CONTATTO*/
+.contact{
+  padding-top: 120px;
+}
 
 .contatto-img{
   width: 60%;
@@ -381,14 +393,27 @@ div.team-logo:nth-child(3) {
 .differences{
   border-top: 1px solid gray;
   padding: 20px 0px;  
-  padding: 20px 0px;
+  margin-top: 10px;
 }
 .ask h2{
   margin: 80px 0px 35px 0px;
 }
-.ask div:last-child {
+.ask div:nth-child(6) {
   
   border-bottom: 1px solid gray;
+}
+.ghost{
+  display: none;
+}
+.differences:hover + .ghost{
+  display: inline;
+}
+.differences:hover + i{
+  display: none !important;
+}
+.ghost p{
+  margin: 20px 0px;
+  width: 85%;
 }
 
 /*FOOTER*/
