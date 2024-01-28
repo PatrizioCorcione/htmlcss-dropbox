@@ -401,19 +401,23 @@ div.team-logo:nth-child(3) {
   
   border-bottom: 1px solid gray;
 }
-.ghost{
+.ghost,.fa-chevron-up{
   display: none;
 }
-.differences:hover + .ghost{
+.differences:hover .ghost{
   display: inline;
 }
-.differences:hover + i{
-  display: none !important;
+.differences:hover .fa-chevron-up{
+  display: inline;
+}
+.differences:hover .fa-chevron-down{
+  display: none;
 }
 .ghost p{
   margin: 20px 0px;
   width: 85%;
 }
+
 
 /*FOOTER*/
 
