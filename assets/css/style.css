@@ -99,13 +99,28 @@ p{
   color: var(--clr-footer);
   background-color: var(--clr-white);
   padding: 4px 7px;
-  width: 19%;
 }
 .hr-separation{
   width: 55px;
   border: 1px solid gray;
 }
-
+.fake-btn:hover{
+  background-color: #081753;
+}
+.fake-btn-par:hover{
+  color: white;
+  background-color: #000000;
+}
+.fake-btn-inv:hover{
+  background-color: #750b35;
+}
+.ul-footer a:hover{
+  color: var(--fake-btn);
+}
+.text-violet:hover{
+  font-weight: bold;
+  text-decoration-line: overline;
+}
 /*HEADER*/
 .padding-header{
   padding-top: 140px;
@@ -118,7 +133,7 @@ header a{
   text-decoration: none;
 }
 .top-ul li{
-  line-height: 70px;
+  display: flex;  align-items: center;
   height: 100%;
   margin-right: 10px;
 }
