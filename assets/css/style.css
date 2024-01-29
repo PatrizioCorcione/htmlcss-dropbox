@@ -427,26 +427,41 @@ div.team-logo:nth-child(3) {
   
   border-bottom: 1px solid gray;
 }
-.ghost,.fa-chevron-up{
+.fa-chevron-up{
   display: none;
-}
-.differences:hover .ghost{
-  
-  display: inline;
-}
-.differences:hover .fa-chevron-up{
-  display: inline;
 }
 .differences:hover .fa-chevron-down{
   display: none;
 }
-.ghost p{
+.differences:hover .fa-chevron-up{
+  display: inline-block;
+}
+
+.slide-bot p{
   margin: 20px 0px;
   width: 85%;
 }
+.slide-bot{
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  opacity: 0;
+  height: 0;
+}
 
-
-
+.differences:hover .move {
+    animation-name: move;
+    animation-timing-function: ease;
+}
+@keyframes move {
+  0%   { 
+    opacity: 0.1;
+    height: 0px; 
+  }
+  100% { 
+    opacity: 1;
+    height: 60px; 
+  }
+}
 /*FOOTER*/
 
 footer{
