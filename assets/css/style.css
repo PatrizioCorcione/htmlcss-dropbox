@@ -353,7 +353,8 @@ a.fake-btn-par{
   width: calc(100% / 3);
 }
 .border-green{
-  border: solid 0.5rem #d0e9cd;
+  width: 100%;
+  border: solid 10px #d0e9cd;
 }
 
 div.team-logo:nth-child(3) {
@@ -393,6 +394,12 @@ div.team-logo:nth-child(3) {
 .fake-btn-inv a{
   color: #000000;
   text-decoration: none;
+}
+.position-rel{
+  position: relative;
+}
+.position-abs{
+  position: absolute;
 }
 
 /*ASK*/
